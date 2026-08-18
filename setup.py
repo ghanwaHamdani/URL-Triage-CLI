@@ -16,7 +16,7 @@ setup(
     # executable binary command in virtual environment's bin folder
     entry_points = {
         "console_scripts": [
-            "url-triage=triage_cli:main"
+            "url-triage=triage.triage_cli:main"
         ]
     }
 )
